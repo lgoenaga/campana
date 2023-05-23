@@ -1,0 +1,30 @@
+.navbar.fixed-bottom {
+  display: flex;
+
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+  
+}
+
+.navbar.fixed-bottom p{
+  text-align: center;
+  padding-top: 10px;
+  font-size: xx-small;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.navbar.footer {
+  margin-bottom: 10px;
+  
+}
+
+nav.navbar.footer p{
+  margin-right: 20px;
+  color: red;
+}

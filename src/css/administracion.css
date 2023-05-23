@@ -1,0 +1,28 @@
+.contenedor-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 73vh;
+}
+
+button.btnSalir.btn.btn-primary{
+  margin: 0 auto;
+  font-size: 26px;
+  width: 130px;
+  height: max-content;
+  padding: 10px;
+}
+
+@media (max-width: 793px) {
+  .contenedor-admin img {
+    height: min-content;
+    width: min-content;
+  }
+}
+
+@media (max-height: 506px) {
+  .contenedor-admin img {
+    height: 25vh;
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+ appcampana:
+  container_name: appcampana
+  image: lgoenaga/appcampana:V1
+  build:
+   context: .
+  ports:
+   - 3000:3000
+  networks:
+   - net-appcampana
+networks:
+ net-appcampana:

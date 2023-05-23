@@ -1,0 +1,244 @@
+.contenedor-datosPersonales .invalid-feedback {
+	font-size: xx-small;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor-datosPersonales {
+	border: solid 1px;
+	border-radius: 20px;
+	width: 99%;
+	min-height: max-content;
+	max-height: min-content;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedorContactoUbicacion {
+	display: flex;
+	border: solid 1px;
+	border-radius: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.formDatosContacto .invalid-feedback {
+	font-size: xx-small;
+	margin: 0;
+	padding: 0;
+}
+
+.formDatosContacto {
+	width: 49%;
+	min-height: max-content;
+	max-height: min-content;
+	border-right: 1px solid;
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+}
+
+.formDatosUbicacion {
+	width: 49%;
+	min-height: max-content;
+	max-height: min-content;
+	padding-left: 10px;
+}
+
+.button-contactos.container {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.registrociudadano.btn.btn-primary {
+	margin-left: 30px;
+	margin-right: 55px;
+}
+
+button.btn.btn-primary {
+	width: 80px;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+
+.btn.btn-primary {
+	display: flex;
+	margin-left: 15px;
+	margin-right: 35px;
+}
+
+.btn.btn-info {
+	display: flex;
+
+	margin-right: 40px;
+}
+
+.botones-mod {
+	margin-right: 3px;
+	text-align: center;
+}
+
+.oculto {
+	display: none;
+}
+
+.fila-usuarios .dato-contacto,
+.fila-ciudadanos .dato-contacto,
+.fila-testigos .dato-contacto,
+.fila-lugares .dato-contacto,
+.fila-testigoxlugar .dato-contacto,
+.fila-contactoxlugar .dato-contacto {
+	text-align: center;
+}
+
+tr.table-usuarios {
+	display: grid;
+	grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+tr.table-ciudadanos {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+
+tr.table-testigos {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+
+tr.table-contactos {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+
+tr.table-lugares {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 2fr 1fr 0.5fr 0.5fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+tr.table-testigoxlugar {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 1.5fr 1.5fr 1fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+tr.table-contactoxlugar {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 1.5fr 1.5fr 1fr 1fr;
+	color: blue;
+	align-items: center;
+	background-color: rgb(168, 193, 238);
+}
+tr.fila-usuarios {
+	display: grid;
+	grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+}
+
+tr.fila-ciudadanos {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr;
+}
+tr.fila-testigos {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1.5fr 1.5fr 1fr 1fr;
+}
+tr.fila-lugares {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 2fr 1fr 0.5fr 0.5fr 1fr;
+}
+
+
+
+tr.fila-testigoxlugar {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 1.5fr 1.5fr 1fr 1fr;
+}
+
+tr.fila-contactoxlugar {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 1.5fr 1.5fr 1fr 1fr;
+}
+
+.d-flex {
+	justify-content: center;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+button.Nuevo.btn.btn-primary {
+	margin-left: 20px;
+}
+
+@media (max-width: 794px) {
+	.Formulaio-Contactos {
+		font-size: xx-small;
+		margin: 0;
+	}
+
+	.formDatosContacto {
+		height: 190px;
+	}
+
+	.formDatosUbicacion {
+		height: 190px;
+	}
+
+	.form-control {
+		font-size: xx-small;
+		padding: 0;
+		margin: 0;
+	}
+	.form-label {
+		margin: 0;
+		font-size: xx-small;
+		padding: 0;
+	}
+
+	.fixed-bottom p {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 990px) {
+	.Formulaio-Contactos {
+		font-size: xx-small;
+		margin-top: 0;
+	}
+
+	.fila-data {
+		height: 35px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.fixed-bottom p {
+		font-size: x-small;
+	}
+}
+
+@media (min-width: 991px) {
+	.fixed-bottom {
+		display: grid;
+		align-content: space-between;
+	}
+}
