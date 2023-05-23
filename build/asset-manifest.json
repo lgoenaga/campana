@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.552cee66.css",
-    "main.js": "/static/js/main.80dd7cbf.js",
-    "static/media/logo.png": "/static/media/logo.9e8808538eaa68e1dc04.png",
-    "index.html": "/index.html",
-    "main.552cee66.css.map": "/static/css/main.552cee66.css.map",
-    "main.80dd7cbf.js.map": "/static/js/main.80dd7cbf.js.map"
+    "main.css": "/campana/static/css/main.552cee66.css",
+    "main.js": "/campana/static/js/main.00b6b951.js",
+    "static/media/logo.png": "/campana/static/media/logo.9e8808538eaa68e1dc04.png",
+    "index.html": "/campana/index.html",
+    "main.552cee66.css.map": "/campana/static/css/main.552cee66.css.map",
+    "main.00b6b951.js.map": "/campana/static/js/main.00b6b951.js.map"
   },
   "entrypoints": [
     "static/css/main.552cee66.css",
-    "static/js/main.80dd7cbf.js"
+    "static/js/main.00b6b951.js"
   ]
 }
