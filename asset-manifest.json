@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/campana/static/css/main.552cee66.css",
-    "main.js": "/campana/static/js/main.00b6b951.js",
-    "static/media/logo.png": "/campana/static/media/logo.9e8808538eaa68e1dc04.png",
-    "index.html": "/campana/index.html",
-    "main.552cee66.css.map": "/campana/static/css/main.552cee66.css.map",
-    "main.00b6b951.js.map": "/campana/static/js/main.00b6b951.js.map"
+    "main.css": "/lgoenaga/campana/tree/gh-pages/static/css/main.552cee66.css",
+    "main.js": "/lgoenaga/campana/tree/gh-pages/static/js/main.9c3bcbfb.js",
+    "static/media/logo.png": "/lgoenaga/campana/tree/gh-pages/static/media/logo.9e8808538eaa68e1dc04.png",
+    "index.html": "/lgoenaga/campana/tree/gh-pages/index.html",
+    "main.552cee66.css.map": "/lgoenaga/campana/tree/gh-pages/static/css/main.552cee66.css.map",
+    "main.9c3bcbfb.js.map": "/lgoenaga/campana/tree/gh-pages/static/js/main.9c3bcbfb.js.map"
   },
   "entrypoints": [
     "static/css/main.552cee66.css",
-    "static/js/main.00b6b951.js"
+    "static/js/main.9c3bcbfb.js"
   ]
 }
