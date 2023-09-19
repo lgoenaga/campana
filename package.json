@@ -1,6 +1,5 @@
 {
 	"name": "appcampana",
-	"homepage": "https://github.com/lgoenaga/campana/tree/gh-pages",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
